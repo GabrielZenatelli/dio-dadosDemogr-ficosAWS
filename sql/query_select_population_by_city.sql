@@ -1,3 +1,8 @@
 select city, population
-from "population"."population"
-where city='Foz do Iguaçu';
+from "populationdb"."population"
+where city='Belo Horizonte';
+
+
+select city,populatiom
+from "popilationdb"."population"
+where city="São Paulo";
